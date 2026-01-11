@@ -66,6 +66,16 @@ From the project root directory, run:
 
 ```bash
 docker compose up --build
+```
+
+web:
+http://localhost
+
+app metrics:
+http://localhost/api/metrics
+
+prometheus:
+http://localhost:9090
 
 ## Notes
 - You may simulate data if needed
